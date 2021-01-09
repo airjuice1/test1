@@ -23,6 +23,9 @@ if ($anyPerson)
 else
 {
 	$logger->error('person not found');	
+
+	// пересоздание таблиы person
+	$pdoa->executePrepared($pdoa->prepare('call sp_reset_table()'), null);	
 }
 
 // 4) Получить список персон максимального возраста (фамилия, имя). Желательно НЕ ИСПОЛЬЗУЯ полученное на шаге 1 значение.
