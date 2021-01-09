@@ -1,0 +1,582 @@
+2021-01-09 19:19:54 ERROR: test
+2021-01-09 19:20:07 ERROR: test
+2021-01-09 19:20:07 ERROR: test
+2021-01-09 19:20:07 ERROR: test
+2021-01-09 19:20:07 ERROR: test
+2021-01-09 19:20:07 ERROR: test
+2021-01-09 19:20:07 ERROR: test
+2021-01-09 19:42:27 INFO: PDOAdapter -> selectOne() $sql=select max(`age`) from `person` $args=
+2021-01-09 19:42:37 INFO: PDOAdapter -> selectOne() $sql=select max(`age`) as `age` from `person` $args=
+2021-01-09 19:42:58 INFO: PDOAdapter -> selectOne() $sql=select max(`age`) as `age` from `person` $args=
+2021-01-09 19:43:01 INFO: PDOAdapter -> selectOne() $sql=select max(`age`) as `age` from `person` $args=
+2021-01-09 19:43:07 INFO: PDOAdapter -> selectOne() $sql=select max(`age`) as `age` from `person` $args=
+2021-01-09 19:43:31 INFO: PDOAdapter -> selectOne() $sql=select max(`age`) as `age` from `person` where `id` > 1000 $args=
+2021-01-09 19:43:36 INFO: PDOAdapter -> selectOne() $sql=select max(`age`) as `age` from `person` where `id` > 1000 $args=
+2021-01-09 19:43:48 INFO: PDOAdapter -> selectOne() $sql=select max(`age`) as `age` from `person` where `id` > 1000 $args=
+2021-01-09 19:44:38 INFO: PDOAdapter -> selectOne() $sql=select max(`age`) as `age` from `person` $args=
+2021-01-09 19:44:55 INFO: PDOAdapter -> selectOne() $sql=select max(`age`) as `age` from `person` where `id` > 1000 $args=
+2021-01-09 19:45:04 INFO: PDOAdapter -> selectOne() $sql=select max(`age`) as `age` from `person` where `id` > 1000 $args=
+2021-01-09 19:45:19 INFO: PDOAdapter -> selectOne() $sql=select max(`age`) as `age` from `person` where `id` > 1000 $args=
+2021-01-09 19:45:45 INFO: PDOAdapter -> selectOne() $sql=select max(`age`) as `age` from `person` where `id` > 1000 $args=
+2021-01-09 19:46:42 INFO: PDOAdapter -> selectOne() $sql=select max(`age`) as `age` from `person` where `id` > 1000 $args=
+2021-01-09 19:54:08 INFO: PDOAdapter -> selectOne() $sql=select max(`age`) as `age` from `person` where `id` > 1000 $args=
+2021-01-09 19:54:08 ERROR: PDOAdapter selectAll() error: sql=
+select * from `person` where `mother_id` is null and `age` < ?
+PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1 in C:\Users\Juice\Downloads\default\Задание\PDOAdapter.php:66
+Stack trace:
+#0 C:\Users\Juice\Downloads\default\Задание\PDOAdapter.php(66): PDO->query()
+#1 C:\Users\Juice\Downloads\default\Задание\PDOAdapter.php(40): PDOAdapter->selectAll()
+#2 C:\Users\Juice\Downloads\default\Задание\index.php(13): PDOAdapter->execute()
+#3 {main}
+2021-01-09 19:56:03 INFO: PDOAdapter -> selectOne() $sql=select max(`age`) as `age` from `person` where `id` > 1000 $args=
+2021-01-09 19:56:21 INFO: PDOAdapter -> selectOne() $sql=select max(`age`) as `age` from `person` where `id` > 1000 $args=
+2021-01-09 19:58:57 INFO: PDOAdapter -> selectOne() $sql=select max(`age`) as `age` from `person` where `id` > 1000 $args=
+2021-01-09 19:59:00 INFO: PDOAdapter -> selectOne() $sql=select max(`age`) as `age` from `person` where `id` > 1000 $args=
+2021-01-09 19:59:03 INFO: PDOAdapter -> selectOne() $sql=select max(`age`) as `age` from `person` where `id` > 1000 $args=
+2021-01-09 19:59:41 INFO: PDOAdapter -> selectOne() $sql=select max(`age`) as `age` from `person` $args=
+2021-01-09 20:00:29 INFO: PDOAdapter -> selectOne() $sql=select max(`age`) as `age` from `person` where `id` > 1000 $args=
+2021-01-09 20:00:39 INFO: PDOAdapter -> selectOne() $sql=select max(`age`) as `age` from `person` where `id` > 1000 $args=
+2021-01-09 20:00:46 INFO: PDOAdapter -> selectOne() $sql=select max(`age`) as `age` from `person` where `id` > 1000 $args=
+2021-01-09 20:01:40 INFO: PDOAdapter -> selectOne() $sql=select max(`age`) as `age` from `person` $args=
+2021-01-09 20:02:56 INFO: PDOAdapter -> selectOne() $sql=select max(`age`) as `age` from `person` $args=
+2021-01-09 20:02:56 INFO: PDOAdapter -> selectOne() $sql=select * from `person` where `mother_id` is null and `age` < :maxAge $args=Array
+(
+    [:maxAge] => 46
+)
+
+2021-01-09 20:02:57 INFO: PDOAdapter -> selectOne() $sql=select max(`age`) as `age` from `person` $args=
+2021-01-09 20:02:57 INFO: PDOAdapter -> selectOne() $sql=select * from `person` where `mother_id` is null and `age` < :maxAge $args=Array
+(
+    [:maxAge] => 46
+)
+
+2021-01-09 20:02:58 INFO: PDOAdapter -> selectOne() $sql=select max(`age`) as `age` from `person` $args=
+2021-01-09 20:02:58 INFO: PDOAdapter -> selectOne() $sql=select * from `person` where `mother_id` is null and `age` < :maxAge $args=Array
+(
+    [:maxAge] => 46
+)
+
+2021-01-09 20:02:58 INFO: PDOAdapter -> selectOne() $sql=select max(`age`) as `age` from `person` $args=
+2021-01-09 20:02:58 INFO: PDOAdapter -> selectOne() $sql=select * from `person` where `mother_id` is null and `age` < :maxAge $args=Array
+(
+    [:maxAge] => 46
+)
+
+2021-01-09 20:02:58 INFO: PDOAdapter -> selectOne() $sql=select max(`age`) as `age` from `person` $args=
+2021-01-09 20:02:58 INFO: PDOAdapter -> selectOne() $sql=select * from `person` where `mother_id` is null and `age` < :maxAge $args=Array
+(
+    [:maxAge] => 46
+)
+
+2021-01-09 20:02:58 INFO: PDOAdapter -> selectOne() $sql=select max(`age`) as `age` from `person` $args=
+2021-01-09 20:02:58 INFO: PDOAdapter -> selectOne() $sql=select * from `person` where `mother_id` is null and `age` < :maxAge $args=Array
+(
+    [:maxAge] => 46
+)
+
+2021-01-09 20:02:59 INFO: PDOAdapter -> selectOne() $sql=select max(`age`) as `age` from `person` $args=
+2021-01-09 20:02:59 INFO: PDOAdapter -> selectOne() $sql=select * from `person` where `mother_id` is null and `age` < :maxAge $args=Array
+(
+    [:maxAge] => 46
+)
+
+2021-01-09 20:02:59 INFO: PDOAdapter -> selectOne() $sql=select max(`age`) as `age` from `person` $args=
+2021-01-09 20:02:59 INFO: PDOAdapter -> selectOne() $sql=select * from `person` where `mother_id` is null and `age` < :maxAge $args=Array
+(
+    [:maxAge] => 46
+)
+
+2021-01-09 20:10:37 INFO: PDOAdapter -> selectOne() $sql=select max(`age`) as `age` from `person` $args=
+2021-01-09 20:10:37 INFO: PDOAdapter -> selectOne() $sql=select * from `person` where `mother_id` is null and `age` < :maxAge $args=Array
+(
+    [:maxAge] => 46
+)
+
+2021-01-09 20:10:39 INFO: PDOAdapter -> selectOne() $sql=select max(`age`) as `age` from `person` $args=
+2021-01-09 20:10:39 INFO: PDOAdapter -> selectOne() $sql=select * from `person` where `mother_id` is null and `age` < :maxAge $args=Array
+(
+    [:maxAge] => 46
+)
+
+2021-01-09 20:10:47 INFO: PDOAdapter -> selectOne() $sql=select max(`age`) as `age` from `person` $args=
+2021-01-09 20:10:47 INFO: PDOAdapter -> selectOne() $sql=select * from `person` where `mother_id` is null and `age` < :maxAge $args=Array
+(
+    [:maxAge] => 146
+)
+
+2021-01-09 20:10:58 INFO: PDOAdapter -> selectOne() $sql=select max(`age`) as `age` from `person` $args=
+2021-01-09 20:10:58 INFO: PDOAdapter -> selectOne() $sql=select * from `person` where `mother_id` is null and `age` < :maxAge $args=Array
+(
+    [:maxAge] => -9954
+)
+
+2021-01-09 20:11:08 INFO: PDOAdapter -> selectOne() $sql=select max(`age`) as `age` from `person` $args=
+2021-01-09 20:11:08 INFO: PDOAdapter -> selectOne() $sql=select * from `person` where `mother_id` is null and `age` < :maxAge $args=Array
+(
+    [:maxAge] => 46
+)
+
+2021-01-09 20:20:41 INFO: PDOAdapter -> selectOne() $sql=select max(`age`) as `age` from `person` where id < 1 $args=
+2021-01-09 20:22:17 INFO: PDOAdapter -> selectOne() $sql=select max(`age`) as `age` from `person` where id < 1 $args=
+2021-01-09 20:26:01 INFO: PDOAdapter -> selectOne() $sql=select max(`age`) as `age` from `person` $args=
+2021-01-09 20:26:01 INFO: PDOAdapter -> selectOne() $sql=select * from `person` where `mother_id` is null and `age` < :maxAge $args=Array
+(
+    [:maxAge] => 46
+)
+
+2021-01-09 20:26:05 INFO: PDOAdapter -> selectOne() $sql=select max(`age`) as `age` from `person` $args=
+2021-01-09 20:26:05 INFO: PDOAdapter -> selectOne() $sql=select * from `person` where `mother_id` is null and `age` > :maxAge $args=Array
+(
+    [:maxAge] => 46
+)
+
+2021-01-09 20:26:08 INFO: PDOAdapter -> selectOne() $sql=select max(`age`) as `age` from `person` $args=
+2021-01-09 20:26:08 INFO: PDOAdapter -> selectOne() $sql=select * from `person` where `mother_id` is null and `age` < :maxAge $args=Array
+(
+    [:maxAge] => 46
+)
+
+2021-01-09 20:26:46 INFO: PDOAdapter -> selectOne() $sql=select max(`age`) as `age` from `person` $args=
+2021-01-09 20:26:46 INFO: PDOAdapter -> selectOne() $sql=select * from `person` where `mother_id` is null and `age` < :maxAge $args=Array
+(
+    [:maxAge] => 46
+)
+
+2021-01-09 20:27:13 INFO: PDOAdapter -> selectOne() $sql=select max(`age`) as `age` from `person` $args=
+2021-01-09 20:27:13 INFO: PDOAdapter -> selectOne() $sql=select * from `person` where `mother_id` is null and `age` < :maxAge $args=Array
+(
+    [:maxAge] => 46
+)
+
+2021-01-09 20:28:45 INFO: PDOAdapter -> selectOne() $sql=select max(`age`) as `age` from `person` $args=
+2021-01-09 20:28:45 INFO: PDOAdapter -> selectOne() $sql=select * from `person` where `mother_id` is null and `age` < :maxAge $args=Array
+(
+    [:maxAge] => 46
+)
+
+2021-01-09 20:28:55 INFO: PDOAdapter -> selectOne() $sql=select max(`age`) as `age` from `person` $args=
+2021-01-09 20:28:55 INFO: PDOAdapter -> selectOne() $sql=select * from `person` where `mother_id` is null and `age` < :maxAge $args=Array
+(
+    [:maxAge] => 46
+)
+
+2021-01-09 20:29:04 INFO: PDOAdapter -> selectOne() $sql=select max(`age`) as `age` from `person` $args=
+2021-01-09 20:29:04 INFO: PDOAdapter -> selectOne() $sql=select * from `person` where `mother_id` is null and `age` < :maxAge $args=Array
+(
+    [:maxAge] => 46
+)
+
+2021-01-09 20:29:13 INFO: PDOAdapter -> selectOne() $sql=select max(`age`) as `age` from `person` $args=
+2021-01-09 20:29:13 INFO: PDOAdapter -> selectOne() $sql=select * from `person` where `mother_id` is null and `age` < :maxAge $args=Array
+(
+    [:maxAge] => 46
+)
+
+2021-01-09 20:29:16 INFO: PDOAdapter -> selectOne() $sql=select max(`age`) as `age` from `person` $args=
+2021-01-09 20:29:16 INFO: PDOAdapter -> selectOne() $sql=select * from `person` where `mother_id` is null and `age` < :maxAge $args=Array
+(
+    [:maxAge] => 46
+)
+
+2021-01-09 20:29:20 INFO: PDOAdapter -> selectOne() $sql=select max(`age`) as `age` from `person` $args=
+2021-01-09 20:29:20 INFO: PDOAdapter -> selectOne() $sql=select * from `person` where `mother_id` is null and `age` < :maxAge $args=Array
+(
+    [:maxAge] => 46
+)
+
+2021-01-09 20:29:35 INFO: PDOAdapter -> selectOne() $sql=select max(`age`) as `age` from `person` $args=
+2021-01-09 20:29:35 INFO: PDOAdapter -> selectOne() $sql=select * from `person` where `mother_id` is null and `age` > :maxAge $args=Array
+(
+    [:maxAge] => 46
+)
+
+2021-01-09 20:29:43 INFO: PDOAdapter -> selectOne() $sql=select max(`age`) as `age` from `person` $args=
+2021-01-09 20:29:43 INFO: PDOAdapter -> selectOne() $sql=select * from `person` where `mother_id` is null and `age` > :maxAge $args=Array
+(
+    [:maxAge] => 46
+)
+
+2021-01-09 20:30:09 INFO: PDOAdapter -> selectOne() $sql=select max(`age`) as `age` from `person` $args=
+2021-01-09 20:30:09 INFO: PDOAdapter -> selectOne() $sql=select * from `person` where `mother_id` is null and `age` > :maxAge $args=Array
+(
+    [:maxAge] => 46
+)
+
+2021-01-09 20:30:25 INFO: PDOAdapter -> selectOne() $sql=select max(`age`) as `age` from `person` $args=
+2021-01-09 20:30:25 INFO: PDOAdapter -> selectOne() $sql=select * from `person` where `mother_id` is null and `age` < :maxAge $args=Array
+(
+    [:maxAge] => 46
+)
+
+2021-01-09 20:30:27 INFO: PDOAdapter -> selectOne() $sql=select max(`age`) as `age` from `person` $args=
+2021-01-09 20:30:27 INFO: PDOAdapter -> selectOne() $sql=select * from `person` where `mother_id` is null and `age` < :maxAge $args=Array
+(
+    [:maxAge] => 46
+)
+
+2021-01-09 20:30:32 INFO: PDOAdapter -> selectOne() $sql=select max(`age`) as `age` from `person` $args=
+2021-01-09 20:30:32 INFO: PDOAdapter -> selectOne() $sql=select * from `person` where `mother_id` is null and `age` > :maxAge $args=Array
+(
+    [:maxAge] => 46
+)
+
+2021-01-09 20:32:09 INFO: PDOAdapter -> selectOne() $sql=select max(`age`) as `age` from `person` $args=
+2021-01-09 20:32:09 INFO: PDOAdapter -> selectOne() $sql=select * from `person` where `mother_id` is null and `age` > :maxAge $args=Array
+(
+    [:maxAge] => 46
+)
+
+2021-01-09 20:32:18 INFO: PDOAdapter -> selectOne() $sql=select max(`age`) as `age` from `person` $args=
+2021-01-09 20:32:18 INFO: PDOAdapter -> selectOne() $sql=select * from `person` where `mother_id` is null and `age` > :maxAge $args=Array
+(
+    [:maxAge] => 46
+)
+
+2021-01-09 20:32:33 INFO: PDOAdapter -> selectOne() $sql=select max(`age`) as `age` from `person` $args=
+2021-01-09 20:32:33 INFO: PDOAdapter -> selectOne() $sql=select * from `person` where `mother_id` is null and `age` > :maxAge $args=Array
+(
+    [:maxAge] => 46
+)
+
+2021-01-09 20:32:46 INFO: PDOAdapter -> selectOne() $sql=select max(`age`) as `age` from `person` $args=
+2021-01-09 20:32:47 INFO: PDOAdapter -> selectOne() $sql=select * from `person` where `mother_id` is null and `age` < :maxAge $args=Array
+(
+    [:maxAge] => 46
+)
+
+2021-01-09 20:33:11 INFO: PDOAdapter -> selectOne() $sql=select max(`age`) as `age` from `person` $args=
+2021-01-09 20:33:14 INFO: PDOAdapter -> selectOne() $sql=select max(`age`) as `age` from `person` $args=
+2021-01-09 20:33:25 INFO: PDOAdapter -> selectOne() $sql=select max(`age`) as `age` from `person` and `id` < 1 $args=
+2021-01-09 20:33:25 ERROR: PDOAdapter selectOne() error: sql=
+select max(`age`) as `age` from `person` and `id` < 1
+PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and `id` < 1' at line 1 in C:\Users\Juice\Downloads\default\Задание\PDOAdapter.php:82
+Stack trace:
+#0 C:\Users\Juice\Downloads\default\Задание\PDOAdapter.php(82): PDO->query()
+#1 C:\Users\Juice\Downloads\default\Задание\PDOAdapter.php(42): PDOAdapter->selectOne()
+#2 C:\Users\Juice\Downloads\default\Задание\index.php(10): PDOAdapter->execute()
+#3 {main}
+2021-01-09 20:33:35 INFO: PDOAdapter -> selectOne() $sql=select max(`age`) as `age` from `person` where `id` < 1 $args=
+2021-01-09 20:33:55 INFO: PDOAdapter -> selectOne() $sql=select max(`age`) as `age` from `person` where `id` < 1 $args=
+2021-01-09 20:34:28 INFO: PDOAdapter -> selectOne() $sql=select max(`age`) as `age` from `person` where `id` < 1 $args=
+2021-01-09 20:34:41 INFO: PDOAdapter -> selectOne() $sql=select max(`age`) as `age` from `person` where `id` < 1 $args=
+2021-01-09 20:34:42 INFO: PDOAdapter -> selectOne() $sql=select * from `person` where `mother_id` is null and `age` < :maxAge $args=Array
+(
+    [:maxAge] => 
+)
+
+2021-01-09 20:34:51 INFO: PDOAdapter -> selectOne() $sql=select max(`age`) as `age` from `person` where `id` < 1 $args=
+2021-01-09 20:34:51 INFO: PDOAdapter -> selectOne() $sql=select * from `person` where `mother_id` is null and `age` < :maxAge $args=Array
+(
+    [:maxAge] => 
+)
+
+2021-01-09 20:34:58 INFO: PDOAdapter -> selectOne() $sql=select max(`age`) as `age` from `person` where `id` < 1 $args=
+2021-01-09 20:34:58 INFO: PDOAdapter -> selectOne() $sql=select * from `person` where `mother_id` is null and `age` < :maxAge $args=Array
+(
+    [:maxAge] => 
+)
+
+2021-01-09 20:35:20 INFO: PDOAdapter -> selectOne() $sql=select max(`age`) as `age` from `person` where `id` < 1 $args=
+2021-01-09 20:35:20 INFO: PDOAdapter -> selectOne() $sql=select * from `person` where `mother_id` is null and `age` < :maxAge $args=Array
+(
+    [:maxAge] => 
+)
+
+2021-01-09 20:35:27 INFO: PDOAdapter -> selectOne() $sql=select max(`age`) as `age` from `person` $args=
+2021-01-09 20:35:27 INFO: PDOAdapter -> selectOne() $sql=select * from `person` where `mother_id` is null and `age` < :maxAge $args=Array
+(
+    [:maxAge] => 46
+)
+
+2021-01-09 20:35:34 INFO: PDOAdapter -> selectOne() $sql=select max(`age`) as `age` from `person` $args=
+2021-01-09 20:35:38 INFO: PDOAdapter -> selectOne() $sql=select max(`age`) as `age` from `person` $args=
+2021-01-09 20:35:38 INFO: PDOAdapter -> selectOne() $sql=select * from `person` where `mother_id` is null and `age` < :maxAge $args=Array
+(
+    [:maxAge] => 46
+)
+
+2021-01-09 20:36:50 INFO: PDOAdapter -> selectOne() $sql=select max(`age`) as `age` from `person` $args=
+2021-01-09 20:36:50 INFO: PDOAdapter -> selectOne() $sql=select * from `person` where `mother_id` is null and `age` < :maxAge $args=Array
+(
+    [:maxAge] => 46
+)
+
+2021-01-09 20:37:05 INFO: PDOAdapter -> selectOne() $sql=select max(`age`) as `age` from `person` $args=
+2021-01-09 20:37:05 INFO: PDOAdapter -> selectOne() $sql=select * from `person` where `mother_id` is null and `age` > :maxAge $args=Array
+(
+    [:maxAge] => 46
+)
+
+2021-01-09 20:37:13 INFO: PDOAdapter -> selectOne() $sql=select max(`age`) as `age` from `person` $args=
+2021-01-09 20:37:13 INFO: PDOAdapter -> selectOne() $sql=select * from `person` where `mother_id` is null and `age` < :maxAge $args=Array
+(
+    [:maxAge] => 46
+)
+
+2021-01-09 20:37:49 INFO: PDOAdapter -> selectOne() $sql=select max(`age`) as `age` from `person` $args=
+2021-01-09 20:37:49 INFO: PDOAdapter -> selectOne() $sql=select * from `person` where `mother_id` is null and `age` < :maxAge $args=Array
+(
+    [:maxAge] => 46
+)
+
+2021-01-09 20:38:46 INFO: PDOAdapter -> selectOne() $sql=select max(`age`) as `age` from `person` $args=
+2021-01-09 20:38:46 INFO: PDOAdapter -> selectOne() $sql=select * from `person` where `mother_id` is null and `age` < :maxAge $args=Array
+(
+    [:maxAge] => 46
+)
+
+2021-01-09 20:39:01 INFO: PDOAdapter -> selectOne() $sql=select max(`age`) as `age` from `person` $args=
+2021-01-09 20:39:01 INFO: PDOAdapter -> selectOne() $sql=select * from `person` where `mother_id` is null and `age` < :maxAge $args=Array
+(
+    [:maxAge] => 46
+)
+
+2021-01-09 20:39:03 INFO: PDOAdapter -> selectOne() $sql=select max(`age`) as `age` from `person` $args=
+2021-01-09 20:39:03 INFO: PDOAdapter -> selectOne() $sql=select * from `person` where `mother_id` is null and `age` < :maxAge $args=Array
+(
+    [:maxAge] => 46
+)
+
+2021-01-09 20:39:04 INFO: PDOAdapter -> selectOne() $sql=select max(`age`) as `age` from `person` $args=
+2021-01-09 20:39:04 INFO: PDOAdapter -> selectOne() $sql=select * from `person` where `mother_id` is null and `age` < :maxAge $args=Array
+(
+    [:maxAge] => 46
+)
+
+2021-01-09 20:39:05 INFO: PDOAdapter -> selectOne() $sql=select max(`age`) as `age` from `person` $args=
+2021-01-09 20:39:05 INFO: PDOAdapter -> selectOne() $sql=select * from `person` where `mother_id` is null and `age` < :maxAge $args=Array
+(
+    [:maxAge] => 46
+)
+
+2021-01-09 20:39:05 ERROR: person not found
+2021-01-09 20:39:07 INFO: PDOAdapter -> selectOne() $sql=select max(`age`) as `age` from `person` $args=
+2021-01-09 20:39:07 INFO: PDOAdapter -> selectOne() $sql=select * from `person` where `mother_id` is null and `age` < :maxAge $args=Array
+(
+    [:maxAge] => 46
+)
+
+2021-01-09 20:39:07 ERROR: person not found
+2021-01-09 20:39:19 INFO: PDOAdapter -> selectOne() $sql=select max(`age`) as `age` from `person` $args=
+2021-01-09 20:39:19 INFO: PDOAdapter -> selectOne() $sql=select * from `person` where `mother_id` is null and `age` < :maxAge $args=Array
+(
+    [:maxAge] => 46
+)
+
+2021-01-09 20:39:19 ERROR: person not found
+2021-01-09 20:39:22 INFO: PDOAdapter -> selectOne() $sql=select max(`age`) as `age` from `person` $args=
+2021-01-09 20:39:22 INFO: PDOAdapter -> selectOne() $sql=select * from `person` where `mother_id` is null and `age` < :maxAge $args=Array
+(
+    [:maxAge] => 46
+)
+
+2021-01-09 20:39:22 ERROR: person not found
+2021-01-09 20:44:07 INFO: PDOAdapter -> selectOne() $sql=select max(`age`) as `age` from `person` $args=
+2021-01-09 20:44:07 INFO: PDOAdapter -> selectOne() $sql=select * from `person` where `mother_id` is null and `age` < :maxAge $args=Array
+(
+    [:maxAge] => 46
+)
+
+2021-01-09 20:44:07 ERROR: PDOAdapter selectAll() error: sql=
+select * from `person` where group by `age`
+PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'group by `age`' at line 1 in C:\Users\Juice\Downloads\default\Задание\PDOAdapter.php:66
+Stack trace:
+#0 C:\Users\Juice\Downloads\default\Задание\PDOAdapter.php(66): PDO->query()
+#1 C:\Users\Juice\Downloads\default\Задание\PDOAdapter.php(40): PDOAdapter->selectAll()
+#2 C:\Users\Juice\Downloads\default\Задание\index.php(30): PDOAdapter->execute()
+#3 {main}
+2021-01-09 20:45:07 INFO: PDOAdapter -> selectOne() $sql=select max(`age`) as `age` from `person` $args=
+2021-01-09 20:45:07 INFO: PDOAdapter -> selectOne() $sql=select * from `person` where `mother_id` is null and `age` < :maxAge $args=Array
+(
+    [:maxAge] => 46
+)
+
+2021-01-09 20:45:07 ERROR: PDOAdapter selectAll() error: sql=
+select * from `person` group by `age`
+PDOException: SQLSTATE[42000]: Syntax error or access violation: 1055 Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'test1.person.id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by in C:\Users\Juice\Downloads\default\Задание\PDOAdapter.php:66
+Stack trace:
+#0 C:\Users\Juice\Downloads\default\Задание\PDOAdapter.php(66): PDO->query()
+#1 C:\Users\Juice\Downloads\default\Задание\PDOAdapter.php(40): PDOAdapter->selectAll()
+#2 C:\Users\Juice\Downloads\default\Задание\index.php(30): PDOAdapter->execute()
+#3 {main}
+2021-01-09 20:49:55 INFO: PDOAdapter -> selectOne() $sql=select max(`age`) as `age` from `person` $args=
+2021-01-09 20:49:55 INFO: PDOAdapter -> selectOne() $sql=select * from `person` where `mother_id` is null and `age` < :maxAge $args=Array
+(
+    [:maxAge] => 46
+)
+
+2021-01-09 20:51:06 INFO: PDOAdapter -> selectOne() $sql=select max(`age`) as `age` from `person` $args=
+2021-01-09 20:51:06 INFO: PDOAdapter -> selectOne() $sql=select * from `person` where `mother_id` is null and `age` < :maxAge $args=Array
+(
+    [:maxAge] => 46
+)
+
+2021-01-09 20:51:14 INFO: PDOAdapter -> selectOne() $sql=select max(`age`) as `age` from `person` $args=
+2021-01-09 20:51:14 INFO: PDOAdapter -> selectOne() $sql=select * from `person` where `mother_id` is null and `age` < :maxAge $args=Array
+(
+    [:maxAge] => 46
+)
+
+2021-01-09 20:51:24 INFO: PDOAdapter -> selectOne() $sql=select max(`age`) as `age` from `person` $args=
+2021-01-09 20:51:24 INFO: PDOAdapter -> selectOne() $sql=select * from `person` where `mother_id` is null and `age` < :maxAge $args=Array
+(
+    [:maxAge] => 46
+)
+
+2021-01-09 20:51:26 INFO: PDOAdapter -> selectOne() $sql=select max(`age`) as `age` from `person` $args=
+2021-01-09 20:51:26 INFO: PDOAdapter -> selectOne() $sql=select * from `person` where `mother_id` is null and `age` < :maxAge $args=Array
+(
+    [:maxAge] => 46
+)
+
+2021-01-09 20:52:17 INFO: PDOAdapter -> selectOne() $sql=select max(`age`) as `age` from `person` $args=
+2021-01-09 20:52:17 INFO: PDOAdapter -> selectOne() $sql=select * from `person` where `mother_id` is null and `age` < :maxAge $args=Array
+(
+    [:maxAge] => 46
+)
+
+2021-01-09 20:52:26 INFO: PDOAdapter -> selectOne() $sql=select max(`age`) as `age` from `person` $args=
+2021-01-09 20:52:26 INFO: PDOAdapter -> selectOne() $sql=select * from `person` where `mother_id` is null and `age` < :maxAge $args=Array
+(
+    [:maxAge] => 46
+)
+
+2021-01-09 20:52:32 INFO: PDOAdapter -> selectOne() $sql=select max(`age`) as `age` from `person` $args=
+2021-01-09 20:52:32 INFO: PDOAdapter -> selectOne() $sql=select * from `person` where `mother_id` is null and `age` < :maxAge $args=Array
+(
+    [:maxAge] => 46
+)
+
+2021-01-09 20:52:32 ERROR: person not found
+2021-01-09 20:54:27 INFO: PDOAdapter -> selectOne() $sql=select max(`age`) as `age` from `person` $args=
+2021-01-09 20:54:27 INFO: PDOAdapter -> selectOne() $sql=select * from `person` where `mother_id` is null and `age` < :maxAge $args=Array
+(
+    [:maxAge] => 46
+)
+
+2021-01-09 20:54:27 ERROR: person not found
+2021-01-09 20:54:29 INFO: PDOAdapter -> selectOne() $sql=select max(`age`) as `age` from `person` $args=
+2021-01-09 20:54:29 INFO: PDOAdapter -> selectOne() $sql=select * from `person` where `mother_id` is null and `age` < :maxAge $args=Array
+(
+    [:maxAge] => 46
+)
+
+2021-01-09 20:54:29 ERROR: person not found
+2021-01-09 20:54:50 INFO: PDOAdapter -> selectOne() $sql=select max(`age`) as `age` from `person` $args=
+2021-01-09 20:54:50 INFO: PDOAdapter -> selectOne() $sql=select * from `person` where `mother_id` is null and `age` < :maxAge $args=Array
+(
+    [:maxAge] => 46
+)
+
+2021-01-09 20:54:52 INFO: PDOAdapter -> selectOne() $sql=select max(`age`) as `age` from `person` $args=
+2021-01-09 20:54:52 INFO: PDOAdapter -> selectOne() $sql=select * from `person` where `mother_id` is null and `age` < :maxAge $args=Array
+(
+    [:maxAge] => 46
+)
+
+2021-01-09 20:54:54 INFO: PDOAdapter -> selectOne() $sql=select max(`age`) as `age` from `person` $args=
+2021-01-09 20:54:54 INFO: PDOAdapter -> selectOne() $sql=select * from `person` where `mother_id` is null and `age` < :maxAge $args=Array
+(
+    [:maxAge] => 46
+)
+
+2021-01-09 20:54:57 INFO: PDOAdapter -> selectOne() $sql=select max(`age`) as `age` from `person` $args=
+2021-01-09 20:54:57 INFO: PDOAdapter -> selectOne() $sql=select * from `person` where `mother_id` is null and `age` < :maxAge $args=Array
+(
+    [:maxAge] => 46
+)
+
+2021-01-09 20:55:02 INFO: PDOAdapter -> selectOne() $sql=select max(`age`) as `age` from `person` $args=
+2021-01-09 20:55:02 INFO: PDOAdapter -> selectOne() $sql=select * from `person` where `mother_id` is null and `age` < :maxAge $args=Array
+(
+    [:maxAge] => 46
+)
+
+2021-01-09 20:55:02 ERROR: person not found
+2021-01-09 20:55:04 INFO: PDOAdapter -> selectOne() $sql=select max(`age`) as `age` from `person` $args=
+2021-01-09 20:55:04 INFO: PDOAdapter -> selectOne() $sql=select * from `person` where `mother_id` is null and `age` < :maxAge $args=Array
+(
+    [:maxAge] => 46
+)
+
+2021-01-09 20:55:04 ERROR: person not found
+2021-01-09 20:55:07 INFO: PDOAdapter -> selectOne() $sql=select max(`age`) as `age` from `person` $args=
+2021-01-09 20:55:07 INFO: PDOAdapter -> selectOne() $sql=select * from `person` where `mother_id` is null and `age` < :maxAge $args=Array
+(
+    [:maxAge] => 46
+)
+
+2021-01-09 20:55:07 ERROR: person not found
+2021-01-09 20:55:08 INFO: PDOAdapter -> selectOne() $sql=select max(`age`) as `age` from `person` $args=
+2021-01-09 20:55:08 INFO: PDOAdapter -> selectOne() $sql=select * from `person` where `mother_id` is null and `age` < :maxAge $args=Array
+(
+    [:maxAge] => 46
+)
+
+2021-01-09 20:55:08 ERROR: person not found
+2021-01-09 20:56:59 INFO: PDOAdapter -> selectOne() $sql=select max(`age`) as `age` from `person` $args=
+2021-01-09 20:56:59 INFO: PDOAdapter -> selectOne() $sql=select * from `person` where `mother_id` is null and `age` < :maxAge $args=Array
+(
+    [:maxAge] => 46
+)
+
+2021-01-09 20:56:59 ERROR: person not found
+2021-01-09 20:57:01 INFO: PDOAdapter -> selectOne() $sql=select max(`age`) as `age` from `person` $args=
+2021-01-09 20:57:01 INFO: PDOAdapter -> selectOne() $sql=select * from `person` where `mother_id` is null and `age` < :maxAge $args=Array
+(
+    [:maxAge] => 46
+)
+
+2021-01-09 20:57:01 ERROR: person not found
+2021-01-09 20:57:02 INFO: PDOAdapter -> selectOne() $sql=select max(`age`) as `age` from `person` $args=
+2021-01-09 20:57:02 INFO: PDOAdapter -> selectOne() $sql=select * from `person` where `mother_id` is null and `age` < :maxAge $args=Array
+(
+    [:maxAge] => 46
+)
+
+2021-01-09 20:57:02 ERROR: person not found
+2021-01-09 20:57:04 INFO: PDOAdapter -> selectOne() $sql=select max(`age`) as `age` from `person` $args=
+2021-01-09 20:57:04 INFO: PDOAdapter -> selectOne() $sql=select * from `person` where `mother_id` is null and `age` < :maxAge $args=Array
+(
+    [:maxAge] => 46
+)
+
+2021-01-09 20:57:04 ERROR: person not found
+2021-01-09 20:58:01 INFO: PDOAdapter -> selectOne() $sql=select max(`age`) as `age` from `person` $args=
+2021-01-09 20:58:01 INFO: PDOAdapter -> selectOne() $sql=select * from `person` where `mother_id` is null and `age` < :maxAge $args=Array
+(
+    [:maxAge] => 46
+)
+
+2021-01-09 20:58:03 INFO: PDOAdapter -> selectOne() $sql=select max(`age`) as `age` from `person` $args=
+2021-01-09 20:58:03 INFO: PDOAdapter -> selectOne() $sql=select * from `person` where `mother_id` is null and `age` < :maxAge $args=Array
+(
+    [:maxAge] => 46
+)
+
+2021-01-09 20:58:05 INFO: PDOAdapter -> selectOne() $sql=select max(`age`) as `age` from `person` $args=
+2021-01-09 20:58:05 INFO: PDOAdapter -> selectOne() $sql=select * from `person` where `mother_id` is null and `age` < :maxAge $args=Array
+(
+    [:maxAge] => 46
+)
+
+2021-01-09 20:58:06 INFO: PDOAdapter -> selectOne() $sql=select max(`age`) as `age` from `person` $args=
+2021-01-09 20:58:06 INFO: PDOAdapter -> selectOne() $sql=select * from `person` where `mother_id` is null and `age` < :maxAge $args=Array
+(
+    [:maxAge] => 46
+)
+
+2021-01-09 20:58:07 INFO: PDOAdapter -> selectOne() $sql=select max(`age`) as `age` from `person` $args=
+2021-01-09 20:58:07 INFO: PDOAdapter -> selectOne() $sql=select * from `person` where `mother_id` is null and `age` < :maxAge $args=Array
+(
+    [:maxAge] => 46
+)
+
+2021-01-09 20:58:07 ERROR: person not found
+2021-01-09 20:58:08 INFO: PDOAdapter -> selectOne() $sql=select max(`age`) as `age` from `person` $args=
+2021-01-09 20:58:08 INFO: PDOAdapter -> selectOne() $sql=select * from `person` where `mother_id` is null and `age` < :maxAge $args=Array
+(
+    [:maxAge] => 46
+)
+
+2021-01-09 20:58:08 ERROR: person not found
